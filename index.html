@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Font awesome cdn CSS-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+		<!-- Bootstrap core CSS -->
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="styles.css" />
+
+		<title>Piece of cake</title>
+	</head>
+	<body>
+
+
+        <!-- This is the first section, here we can find the main form, we use a banner class for the background image  -->
+        <section class="banner d-flex justify-content-center align-items-center pt-5">
+			<div class="container my-5 py-5">
+				<div class="row md-3">
+                    <!-- It is the block on the left with a green background -->
+					<div class="conteneur">
+                        <!-- We took the birthday image (with baloons) -->
+                        <img class='ballon' src="Assets/images/icons/birthday.png"  >
+                        <p id='evenement' class="justify-content-center py-3">
+							UN EVENEMENT A ORGANISER ? <br />
+						</p>
+                        
+						<h1 id='pro'class="justify-content-center py-3">
+							Nos professionnels <br /><!-- We use a <br /> to back to line -->
+							s'occupent de tout !
+						</h1>
+						
+					</div>
+
+                <!-- There is the main form, on the right of the first section, we send these informations to result.php -->
+                <div class="form">
+                    <form id="form1" name="form1" method="post" action="result.php" >
+                       
+                        <!-- The title of the form -->
+                        <h2 class="formtext">Organiser un évènement</h2>
+
+                        <div class="form-group">
+                          <input type="text" name="nom" class="form-control" id="name-text" aria-describedby="emailHelp" placeholder="Nom & Prénom" required>
+                        </div>
+
+                        <!-- I couldn't use CSS for margin so I used '<p>' I know that it is not the best solution -->
+                        <p></p>
+                        
+                        <div class="form-group">
+                        <input type="email" name="email" class="form-control" id="form-email" placeholder="Adresse email" required>
+                        </div>
+
+                        <p></p>
+                        
+                        <div class="form-group">
+                        <textarea class="form-control" name="message" id="message-text" rows="3" placeholder="Message" required></textarea>                       
+                        </div>
+
+                        <p></p>
+
+                        <button type="submit" name="submit" class="organiser">Organiser</button>
+                    
+                    </form>
+                </div>
+				</div>
+			</div>
+		</section>
+
+
+
+		<script src="assets/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>

@@ -1,0 +1,119 @@
+
+
+.cake{
+	width: 400px;
+	position: relative;
+	top: 100px;
+	left: 90px;
+}
+
+
+strong{
+	color: black;
+}
+
+textarea{
+	resize: none;
+}
+
+#message{
+	border: 1px solid black; 
+	padding: 50px;
+	text-align: left;
+	width: 40%;
+	background-color: #fff;
+	color: #E74C3C;
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+.Bonjour{
+	color: #E74C3C;
+	font-weight: bold;
+}
+
+.merci{
+	margin-top: 1em;
+}
+
+.ballon{
+	width: 150px;
+	float: left;
+}
+
+
+.organiser{
+	background-color: #5A6A5D;
+	margin: 0.5em;
+	width: 68%;
+	border-radius: 0%;	
+	border-color: #5A6A5D;
+	position: relative;
+	left: 50px;
+}
+
+
+
+.mail{
+	margin-bottom: 2em;
+	color: #E74C3C;
+	font-weight: bold;
+}
+
+
+#result{
+	position: relative;
+	bottom: 620px;
+}
+
+#second{
+	border: solid;
+	border-color: #5A6A5D;
+	background-color: #fff;
+	color: #5A6A5D;
+	position: relative;
+}
+
+.input-group{
+	position: relative;
+	top: 40px;
+	right: 	300px;
+	height: 90%;
+	margin: auto;
+	padding: 0.75%;
+	width: 50%;
+}
+
+.footer{
+	position: relative;
+	top: 25px;
+}
+
+.cardleft{
+	background-color: #DBE7DD;
+	padding: 0%;
+	position: relative;
+	right: 82px;
+	width: 500px;
+	height: 350px;
+	border-right-width: 10%;
+}
+
+
+#evenement{
+	margin: 1em;
+}
+
+#pro{
+	line-height: 1em;
+}
+
+#special{
+	font-weight: bold;
+}
+
+.affichage{
+	position: relative;
+	left: 20px;
+	top: 25px;
+}
